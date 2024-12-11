@@ -11,8 +11,8 @@ const FoodCategory = () => {
   ];
 
   return (
-    <section className="bg-black text-white py-16 px-6">
-      <div className="text-center md:px-[100px]">
+    <section className="bg-black ">
+      <div className="text-center md:px-[100px] text-white py-16 px-6 max-w-[1440px] mx-auto">
         <h1
           className="text-[#FF9F0D] text-[24px] md:text-[32px] font-greatVibes font-normal whitespace-nowrap"
           style={{ fontFamily: 'Great Vibes' }}

@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-black text-white py-12 px-6 lg:px-20">
+    <section className="bg-black">
+      <div className=" text-white py-12 px-6 lg:px-20 max-w-[1440px] mx-auto">
       <div className="grid lg:grid-cols-2 gap-[90px]">
         <div className="grid grid-cols-1 gap-4">
           <div className="grid grid-cols-5 gap-[10px]">
@@ -120,6 +121,7 @@ export default function WhyChooseUs() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
